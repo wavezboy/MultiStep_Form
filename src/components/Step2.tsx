@@ -29,7 +29,7 @@ export default function Step2() {
   return (
     <div>
       <FormContainer>
-        <div className="p-7">
+        <div className="p-7 w-full">
           <div>
             <p className="text-[36px] capitalize mb-2 font-bold text-blue-950">
               select your plan
@@ -38,7 +38,7 @@ export default function Step2() {
               You have the option of monthly, or yearly billing.
             </h2>
           </div>
-          <div className="flex gap-4">
+          <div className="flex ml-7 gap-4">
             <div
               onClick={() => {
                 setSelectArcade(!selectArcade);
@@ -154,7 +154,7 @@ export default function Step2() {
               </div>
             </div>
           </div>
-          <div className="h-[50px] flex items-center justify-center max-w-[480px] mt-6 rounded-sm gap-4 bg-gray-100">
+          <div className="h-[50px] ml-7 flex items-center max-w-[480px] mt-6 rounded-sm gap-4 bg-gray-100">
             <p
               className={`${
                 click ? "text-gray-400" : "text-blue-950 font-semibold"
@@ -183,7 +183,7 @@ export default function Step2() {
               Yearly
             </h2>
           </div>
-          <div className="flex items-center mt-28 justify-between">
+          <div className="ml-11 flex mt-28 items-center gap-[50%]">
             <Link to="/">
               <p className="text-gray- hover:text-blue-800 cursor-pointer">
                 Go Back
