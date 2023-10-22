@@ -64,11 +64,11 @@ export default function Step1() {
                   registerOptions={{ required: "Required" }}
                 />
               </div>
-              <div className="flex justify-center mx-2 mt-1 sm:mt-10">
+              <div className=" flex justify-end mt-1 sm:mt-10">
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="h-[44px] text-[18px] hover:bg-blue-500 text-white font-bold flex items-center mt-10 justify-center w-[130px] ml-36 bg-blue-800 rounded-[8px]"
+                  className="h-[44px] text-[18px] hover:bg-blue-500 text-white font-bold flex items-center mt-10 justify-center w-[130px] bg-blue-800 rounded-[8px]"
                 >
                   Next Step
                 </button>

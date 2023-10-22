@@ -18,8 +18,8 @@ export default function TextInputField({
   ...props
 }: TextInputFieldProps) {
   return (
-    <div className="flex min-h-[100%] w-full  gap-2 flex-col">
-      <label className=" font-medium text-[15px] text-blue-900">{label}</label>
+    <div className="flex min-h-[168px] w-full  gap-2 flex-col">
+      <label className=" font-medium text-[200%] text-blue-900">{label}</label>
       <input
         className=" placeholder:text-[#CCCCCC]  font-secondary font-bold text-blue-950 rounded-[6px] outline-purple-950  border-[#CCCCCC] border w-[100%] min-h-[70px] max-w-full p-2 bg-white"
         {...props}
