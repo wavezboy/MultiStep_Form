@@ -17,9 +17,9 @@ export default function FormContainer({ children }: FormContainerProps) {
   }, [Routes]);
   return (
     <div className="w-full flex items-center justify-center overflow-hidden h-screen">
-      <div className="flex justify-evenly px-10 lg:gap-10 w-full h-[90%]">
-        <div className="h-full rounded-lg overflow-hidden bg-cover bg-hero bg-no-repeat">
-          <div className="h-[568px] flex flex-col gap-[28px] px-8 lg:px-20 mt-[35px]">
+      <div className="flex justify-evenly px-[10%] lg:gap-[10%] w-full h-[90%]">
+        <div className="h-full w-[35%] rounded-lg overflow-hidden bg-cover bg-hero bg-no-repeat">
+          <div className="min-h-[568px] flex flex-col gap-[28px] px-8 lg:px-20 mt-[35px]">
             <div className=" flex items-center gap-3">
               <div
                 className={`${
@@ -80,7 +80,7 @@ export default function FormContainer({ children }: FormContainerProps) {
             </div>
           </div>
         </div>
-        <div className=" h-[568px] w-[400px] lg:w-full">{children}</div>
+        <div className=" h-[568px] w-[65%] ">{children}</div>
       </div>
     </div>
   );
