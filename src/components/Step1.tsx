@@ -21,13 +21,14 @@ export default function Step1() {
   return (
     <div>
       <FormContainer>
-        <div className="p-7">
-          <div>
+        <div className="p-7 h-full">
+          <div className="h-[100%]">
             <div>
-              <p className="text-[36px] mb-2 font-bold text-blue-950">
+              <p className="text-[500%] mb-2 font-bold text-blue-950">
+                {/* 500% = 36px */}
                 Personal info
               </p>
-              <h2 className="text-gray-400 text-[18px] mb-10">
+              <h2 className="text-gray-400 text-[250%] mb-10">
                 please provide your name, email address, and phone number.
               </h2>
             </div>

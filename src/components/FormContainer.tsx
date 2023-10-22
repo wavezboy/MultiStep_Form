@@ -80,7 +80,7 @@ export default function FormContainer({ children }: FormContainerProps) {
             </div>
           </div>
         </div>
-        <div className=" h-[568px] w-[65%] ">{children}</div>
+        <div className=" min-h-[568px] w-[65%] ">{children}</div>
       </div>
     </div>
   );
