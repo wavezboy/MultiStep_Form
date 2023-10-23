@@ -30,7 +30,7 @@ export default function Step2() {
     <div>
       <FormContainer>
         <div className="p-7 w-full">
-          <div className="bg-white lg:w-[600px] w-[310px] h-[550px] lg:h-full  mt-[-90px] lg:mt-0 lg:mx-0 mx-auto p-7 lg:p-0 lg:rounded-none rounded-[10px]">
+          <div className="bg-white lg:w-[600px] w-[310px] h-[550px] lg:h-full  mt-[-120px] lg:mt-0 lg:mx-0 mx-auto p-7 lg:p-0 lg:rounded-none rounded-[10px]">
             <div>
               <p className="lg:text-[36px] text-[26px] capitalize mb-2 font-bold text-blue-950">
                 select your plan
@@ -94,7 +94,7 @@ export default function Step2() {
                   selectAdvanced
                     ? "bg-slate-100  border-[1px] border-blue-950  "
                     : null
-                } h-[170px] w-[145px]   hover:border-[1px] hover:border-blue-950  border-[1px] cursor-pointer flex flex-col justify-between p-4 rounded-md`}
+                } lg:h-[170px] h-[90px] lg:w-[145px] w-[250px]   hover:border-[1px] hover:border-blue-950  border-[1px] cursor-pointer mb-3 flex lg:flex-col items-center gap-2 lg:justify-between p-4 rounded-md`}
               >
                 <div>
                   <img src={avdanced} alt="" />
@@ -134,7 +134,7 @@ export default function Step2() {
                   selectPro
                     ? "bg-slate-100  border-[1px] border-blue-950  "
                     : null
-                } h-[170px] w-[145px]   hover:border-[1px] hover:border-blue-950  border-[1px] cursor-pointer flex flex-col justify-between p-4 rounded-md`}
+                } lg:h-[170px] h-[90px] lg:w-[145px] w-[250px]   hover:border-[1px] hover:border-blue-950  border-[1px] cursor-pointer mb-3 flex lg:flex-col items-center gap-2 lg:justify-between p-4 rounded-md`}
               >
                 <div>
                   <img src={pro} alt="" />
@@ -157,7 +157,7 @@ export default function Step2() {
                 </div>
               </div>
             </div>
-            <div className="h-[50px] ml-7 flex justify-center items-center max-w-[480px] mt-6 rounded-sm gap-4 bg-gray-100">
+            <div className="h-[50px] lg:ml-7 flex justify-center items-center max-w-[480px] mt-6 rounded-sm gap-4 bg-gray-100">
               <p
                 className={`${
                   click ? "text-gray-400" : "text-blue-950 font-semibold"
@@ -187,7 +187,7 @@ export default function Step2() {
               </h2>
             </div>
           </div>
-          <div className="ml-11 flex mt-28 items-center gap-[280px]">
+          <div className="lg:justify-center  absolute bottom-0 right-0 mr-4 lg:static mb-2 lg:mb-0 flex mt-28 items-center gap-28 lg:gap-[280px]">
             <Link to="/">
               <p className="text-gray- hover:text-blue-800 cursor-pointer">
                 Go Back
