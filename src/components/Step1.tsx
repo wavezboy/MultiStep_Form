@@ -21,14 +21,14 @@ export default function Step1() {
   return (
     <div>
       <FormContainer>
-        <div className="lg:p-7 lg:h-screen bg-white">
-          <div className="">
+        <div className="lg:p-7 lg:h-screen  ">
+          <div className="bg-white lg:w-[600px] w-[310px] h-[400px] lg:h-full  mt-[-90px] lg:mt-0 lg:mx-0 mx-auto p-7 lg:p-0 lg:rounded-none rounded-[10px]">
             <div>
-              <p className="text-[300%] mb-2 font-bold text-blue-950">
+              <p className="lg:text-[300%] text-[20px] mb-2 font-bold text-blue-950">
                 {/* 500% = 36px */}
                 Personal info
               </p>
-              <h2 className="text-gray-400 text-[150%] mb-10">
+              <h2 className="text-gray-400 lg:text-[150%] text-[15px] lg:mb-10 mb-3">
                 please provide your name, email address, and phone number.
               </h2>
             </div>
@@ -64,11 +64,11 @@ export default function Step1() {
                   registerOptions={{ required: "Required" }}
                 />
               </div>
-              <div className=" flex justify-end mt-1 sm:mt-10">
+              <div className=" lg:flex lg:justify-end  lg:h-0  w-full  lg:py-0 py-4  lg:mt-1 mt-32 lg:mr-0 mr-6 ">
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="h-[44px] text-[18px] hover:bg-blue-500 text-white font-bold flex items-center mt-10 justify-center w-[130px] bg-blue-800 rounded-[8px]"
+                  className="h-[44px] text-[18px]  hover:bg-blue-500 text-white font-bold flex lg:ml-0 ml-[207px] lg:mt-10  items-center  justify-center w-[130px] bg-blue-800 rounded-[8px]"
                 >
                   Next Step
                 </button>
