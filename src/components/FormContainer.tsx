@@ -17,7 +17,7 @@ export default function FormContainer({ children }: FormContainerProps) {
   }, [Routes]);
   return (
     <div className="w-full flex items-center justify-center overflow-hidden h-screen">
-      <div className="lg:flex lg:justify-evenly lg:px-[10%] lg:gap-[10%] w-full h-full lg:h-[90%] flex flex-col  lg:flex-row ">
+      <div className="lg:flex lg:justify-evenly lg:px-[10%] w-full h-full lg:h-[90%] flex flex-col  lg:flex-row ">
         <div className="lg:h-full h-[250px] lg:w-[35%] lg:rounded-lg lg:overflow-hidden lg:bg-cover bg-cover lg:bg-hero bg-no-repeat bg-heroMobile">
           <div className="lg:min-h-[568px]  lg:flex lg:flex-col lg:justify-normal lg:mt-16 lg:gap-[28px] lg:px-20  mt-[35px] flex justify-center gap-[20px] ">
             <div className=" flex items-center  lg:w-[200px] gap-3">

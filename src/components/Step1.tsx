@@ -64,7 +64,7 @@ export default function Step1() {
                   registerOptions={{ required: "Required" }}
                 />
               </div>
-              <div className=" lg:flex lg:justify-end  lg:h-0  w-full  lg:py-0 py-4  lg:mt-1 mt-32 lg:mr-0 mr-6 ">
+              <div className=" lg:flex lg:justify-end  lg:h-0  w-full  lg:py-0 py-4  lg:mt-1 absolute right-0 bottom-0 lg:mr-0  ">
                 <button
                   type="submit"
                   disabled={isSubmitting}
