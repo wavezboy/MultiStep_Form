@@ -19,7 +19,7 @@ export default function TextInputField({
 }: TextInputFieldProps) {
   return (
     <div className="flex lg:min-h-[110px] h-[80px] w-full  lg:gap-2 flex-col">
-      <label className=" font-medium lg:text-[200%] text-blue-900">
+      <label className=" font-medium lg:text-[150%] text-blue-900">
         {label}
       </label>
       <input
