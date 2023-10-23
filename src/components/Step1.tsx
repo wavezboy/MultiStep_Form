@@ -21,7 +21,7 @@ export default function Step1() {
   return (
     <div>
       <FormContainer>
-        <div className="p-7 h-screen">
+        <div className="lg:p-7 lg:h-screen bg-white">
           <div className="">
             <div>
               <p className="text-[300%] mb-2 font-bold text-blue-950">
