@@ -183,7 +183,7 @@ export default function Step2() {
               Yearly
             </h2>
           </div>
-          <div className="ml-11 flex mt-28 items-center gap-[50%]">
+          <div className="ml-11 flex mt-28 items-center gap-[280px]">
             <Link to="/">
               <p className="text-gray- hover:text-blue-800 cursor-pointer">
                 Go Back
