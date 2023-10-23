@@ -17,10 +17,10 @@ export default function FormContainer({ children }: FormContainerProps) {
   }, [Routes]);
   return (
     <div className="w-full flex items-center justify-center overflow-hidden h-screen">
-      <div className="flex justify-evenly px-[10%] lg:gap-[10%] w-full h-[90%]">
-        <div className="h-full w-[35%] rounded-lg overflow-hidden bg-cover bg-hero bg-no-repeat">
-          <div className="min-h-[568px] flex flex-col gap-[28px] px-8 lg:px-20 mt-[35px]">
-            <div className=" flex items-center gap-3">
+      <div className="lg:flex lg:justify-evenly px-[10%] lg:gap-[10%] w-full h-[90%] flex flex-col lg:flex-row ">
+        <div className="h-full lg:w-[35%] lg:rounded-lg lg:overflow-hidden lg:bg-cover bg-contain lg:bg-hero bg-no-repeat bg-heroMobile">
+          <div className="lg:min-h-[568px]  lg:flex lg:flex-col lg:gap-[28px] lg:px-20 mt-[35px] flex justify-center gap-[20px] ">
+            <div className=" flex items-center lg:w-[200px] gap-3">
               <div
                 className={`${
                   path === "/" ? "bg-blue-400 border-none text-black" : null
@@ -28,12 +28,12 @@ export default function FormContainer({ children }: FormContainerProps) {
               >
                 1
               </div>
-              <div className="flex justify-center flex-col">
+              <div className="lg:flex lg:justify-center lg:flex-col hidden">
                 <p className="text-gray-500 font-bold text-[12px]">STEP 1</p>
                 <h2 className="text-white  font-bold">YOUR INFO</h2>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center lg:w-[200px] gap-3">
               <div
                 className={`${
                   path === "/step2"
@@ -43,12 +43,12 @@ export default function FormContainer({ children }: FormContainerProps) {
               >
                 2
               </div>
-              <div className="flex justify-center flex-col">
+              <div className="lg:flex lg:justify-center lg:flex-col hidden">
                 <p className="text-gray-500 font-bold text-[12px]">STEP 2</p>
                 <h2 className="text-white font-bold">SELECT PLAN</h2>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center lg:w-[200px] gap-3">
               <div
                 className={`${
                   path === "/step3"
@@ -58,12 +58,12 @@ export default function FormContainer({ children }: FormContainerProps) {
               >
                 3
               </div>
-              <div className="flex justify-center flex-col">
+              <div className="lg:flex lg:justify-center lg:flex-col hidden">
                 <p className="text-gray-500 font-bold text-[12px]">STEP 3</p>
                 <h2 className="text-white font-bold">ADDS-ON</h2>
               </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex items-center lg:w-[200px] gap-3">
               <div
                 className={`${
                   path === "/step4"
@@ -73,7 +73,7 @@ export default function FormContainer({ children }: FormContainerProps) {
               >
                 4
               </div>
-              <div className="flex justify-center flex-col">
+              <div className="lg:flex lg:justify-center lg:flex-col hidden">
                 <p className="text-gray-500 font-bold text-[12px]">STEP 4</p>
                 <h2 className="text-white font-bold">SUMMARY</h2>
               </div>
