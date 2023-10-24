@@ -34,7 +34,7 @@ export default function Step4() {
                 Double-check everything looks OK before confirming.
               </h2>
             </div>
-            <div className=" w-[480px] mb-6 p-3 bg-gray-100">
+            <div className=" lg:w-[480px]  mb-6 p-3 bg-gray-100">
               <div className="flex justify-between mb-6 ">
                 <div>
                   <p className="font-bold text-blue-950">
@@ -46,7 +46,7 @@ export default function Step4() {
                 </div>
                 <p className="font-bold text-blue-950">{plan?.price}</p>
               </div>
-              <span className="h-[1px] mb-4 w-[400px] block  mx-auto bg-gray-300"></span>
+              <span className="h-[1px] mb-4 lg:w-[400px] w-[170px] block  mx-auto bg-gray-300"></span>
               {addsOn.map((adds, i) => (
                 <div key={i} className="flex mb-4 justify-between ">
                   <p className="text-gray-400">{adds.name}</p>
@@ -54,7 +54,7 @@ export default function Step4() {
                 </div>
               ))}
             </div>
-            <div className="flex gap-[240px] ml-4">
+            <div className="flex lg:gap-[240px] gap-2 ml-4">
               <div>
                 <p>
                   {duration === "Yearly"
