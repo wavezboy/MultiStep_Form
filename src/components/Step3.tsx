@@ -18,7 +18,7 @@ export default function Step3() {
     <div>
       <FormContainer>
         <div className="p-7">
-          <div className="bg-white lg:w-[600px] w-[310px] h-[550px] lg:h-full  mt-[-120px] lg:mt-0 lg:mx-0 mx-auto p-7 lg:p-0 lg:rounded-none rounded-[10px]">
+          <div className="bg-white lg:w-[600px] w-[310px] h-[400px] lg:h-full  mt-[-120px] lg:mt-0 lg:mx-0 mx-auto p-7 lg:p-0 lg:rounded-none rounded-[10px]">
             <div>
               <p className="text-[36px] capitalize mb-2 font-bold text-blue-950">
                 Pick adds-on
@@ -83,10 +83,10 @@ export default function Step3() {
                 check2
                   ? "bg-slate-100 border-[1.3px] border-purple-900  "
                   : "border-[1.3px] border-gray-300"
-              } lg:h-[80px] h-[60px] mb-4 lg:p-0 p-2 flex items-center cursor-pointer  justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
+              } lg:h-[80px] h-[60px] mb-4 lg:p-0  flex items-center cursor-pointer p-2 lg:justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
             >
-              <div className="flex items-center lg:gap-40">
-                <div className="flex items-center gap-6">
+              <div className="flex items-center  lg:gap-40">
+                <div className="flex items-center lg:gap-6 gap-2">
                   <div
                     className={`${
                       check2
@@ -101,7 +101,7 @@ export default function Step3() {
                     />
                   </div>
 
-                  <div>
+                  <div className=" mr-8 lg:mr-0">
                     <p className="text-blue-950 text-[13px] lg:text-[17px] font-semibold">
                       Larger storage
                     </p>
@@ -128,16 +128,16 @@ export default function Step3() {
                 check3
                   ? "bg-slate-100 border-[1.3px] border-purple-900"
                   : "border-[1.3px] border-gray-300"
-              } lg:h-[80px] h-[60px] lg:p-0 p-2 flex items-center cursor-pointer  justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
+              } lg:h-[80px] h-[60px] lg:p-0 p-2 flex items-center cursor-pointer  lg:justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
             >
               <div className="flex items-center lg:gap-28">
-                <div className="flex items-center gap-6">
+                <div className="flex items-center lg:gap-6">
                   <div
                     className={`${
                       check3
                         ? "bg-[#473ddd]"
                         : "bg-white border border-gray-400"
-                    } lg:h-[20px] lg:w-[20px] w-[18px] h-[18px] flex items-center justify-center rounded-sm `}
+                    } lg:h-[20px] lg:mr-0 mr-1 lg:w-[20px] w-[18px] h-[18px] flex items-center justify-center rounded-sm `}
                   >
                     <FaCheck
                       className={`${
