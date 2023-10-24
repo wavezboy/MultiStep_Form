@@ -146,12 +146,9 @@ export default function Step3() {
             </div>
           </div>
 
-          <div className="flex items-center mt-[45px] gap-72">
+          <div className="lg:justify-center  absolute bottom-0 right-0 mr-4 lg:static mb-2 lg:mb-0 flex mt-28 items-center gap-28 lg:gap-[280px]">
             <Link to="/step2">
-              <p
-                className="text-gray-400 hover:text-blue-800 cursor-pointer
-                "
-              >
+              <p className="text-gray- hover:text-blue-800 cursor-pointer">
                 Go Back
               </p>
             </Link>
@@ -159,7 +156,7 @@ export default function Step3() {
               <Link to="/step4">
                 <button
                   type="submit"
-                  className="h-[44px] text-[18px] hover:bg-blue-500 cursor-pointer text-white font-bold flex items-center  justify-center w-[130px] bg-blue-950 rounded-[8px]"
+                  className="h-[44px] text-[18px] cursor-pointer text-white font-bold flex items-center hover:bg-blue-500  justify-center w-[130px] bg-blue-950 rounded-[8px]"
                 >
                   Next Step
                 </button>
