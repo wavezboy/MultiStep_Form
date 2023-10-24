@@ -23,7 +23,7 @@ export default function Step3() {
               <p className="text-[36px] capitalize mb-2 font-bold text-blue-950">
                 Pick adds-on
               </p>
-              <h2 className="text-gray-400 text-[18px] mb-10">
+              <h2 className="text-gray-400 text-[18px] lg:mb-10 mb-3">
                 Adds-on help enhance gaming experence
               </h2>
             </div>
@@ -38,16 +38,16 @@ export default function Step3() {
                 check1
                   ? "bg-slate-100 border-[1.3px] border-purple-900  "
                   : "border-[1.3px] border-gray-300"
-              } h-[80px] flex items-center cursor-pointer  justify-center w-[480px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
+              } lg:h-[80px] h-[60px] mb-4 lg:p-0 p-2 flex items-center cursor-pointer  justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
             >
-              <div className="flex items-center gap-[115px]">
-                <div className="flex items-center gap-6">
+              <div className="flex items-center lg:gap-[115px]">
+                <div className="flex items-center lg:gap-6 gap-2">
                   <div
                     className={`${
                       check1
                         ? "bg-[#473ddd]"
                         : "bg-white border border-gray-400"
-                    } h-[20px] w-[20px] flex items-center justify-center rounded-sm `}
+                    } lg:h-[20px] lg:w-[20px] w-[18px] h-[18px] flex items-center justify-center rounded-sm `}
                   >
                     <FaCheck
                       className={`${
@@ -57,16 +57,16 @@ export default function Step3() {
                   </div>
 
                   <div>
-                    <p className="text-blue-950 font-semibold">
+                    <p className="text-blue-950 text-[13px] lg:text-[17px] font-semibold">
                       Online service
                     </p>
-                    <h2 className="text-gray-400">
+                    <h2 className="text-gray-400 text-[12px] lg:text-[17px]">
                       Access to multiplayer games
                     </h2>
                   </div>
                 </div>
                 <div>
-                  <p className="text-[#473ddd]">
+                  <p className="text-[#473ddd] text-[13px] lg:text-[17px]">
                     {duration === "Yearly" ? "+$10/yr" : "+$1/mo"}
                   </p>
                 </div>
@@ -83,16 +83,16 @@ export default function Step3() {
                 check2
                   ? "bg-slate-100 border-[1.3px] border-purple-900  "
                   : "border-[1.3px] border-gray-300"
-              } h-[80px] mt-4 flex items-center cursor-pointer  justify-center w-[480px] hover:border-[1.3px] hover:border-purple-900 rounded-md`}
+              } lg:h-[80px] h-[60px] mb-4 lg:p-0 p-2 flex items-center cursor-pointer  justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
             >
-              <div className="flex items-center gap-40">
+              <div className="flex items-center lg:gap-40">
                 <div className="flex items-center gap-6">
                   <div
                     className={`${
                       check2
                         ? "bg-[#473ddd]"
                         : "bg-white border border-gray-400"
-                    } h-[20px] w-[20px] flex items-center justify-center rounded-sm `}
+                    } lg:h-[20px] lg:w-[20px] w-[18px] h-[18px] flex items-center justify-center rounded-sm  `}
                   >
                     <FaCheck
                       className={`${
@@ -102,14 +102,16 @@ export default function Step3() {
                   </div>
 
                   <div>
-                    <p className="text-blue-950 font-semibold">
+                    <p className="text-blue-950 text-[13px] lg:text-[17px] font-semibold">
                       Larger storage
                     </p>
-                    <h2 className="text-gray-400">Extra 1TB of cloud save</h2>
+                    <h2 className="text-gray-400 text-[12px] lg:text-[17px]">
+                      Extra 1TB of cloud save
+                    </h2>
                   </div>
                 </div>
                 <div>
-                  <p className="text-[#473ddd]">
+                  <p className="text-[#473ddd] text-[13px] lg:text-[17px]">
                     {duration === "Yearly" ? "+$20/yr" : "+$2/mo"}
                   </p>
                 </div>
@@ -126,16 +128,16 @@ export default function Step3() {
                 check3
                   ? "bg-slate-100 border-[1.3px] border-purple-900"
                   : "border-[1.3px] border-gray-300"
-              } h-[80px] mt-4 flex items-center cursor-pointer  justify-center w-[480px] hover:border-[1.3px] hover:border-purple-900 rounded-md`}
+              } lg:h-[80px] h-[60px] lg:p-0 p-2 flex items-center cursor-pointer  justify-center lg:w-[480px] w-[250px]  hover:border-[1.3px] hover:border-purple-900  rounded-md`}
             >
-              <div className="flex items-center gap-28">
+              <div className="flex items-center lg:gap-28">
                 <div className="flex items-center gap-6">
                   <div
                     className={`${
                       check3
                         ? "bg-[#473ddd]"
                         : "bg-white border border-gray-400"
-                    } h-[20px] w-[20px] flex items-center justify-center rounded-sm `}
+                    } lg:h-[20px] lg:w-[20px] w-[18px] h-[18px] flex items-center justify-center rounded-sm `}
                   >
                     <FaCheck
                       className={`${
@@ -145,14 +147,16 @@ export default function Step3() {
                   </div>
 
                   <div>
-                    <p className="text-blue-950 font-semibold">Customizable</p>
-                    <h2 className="text-gray-400">
+                    <p className="text-blue-950 text-[13px] lg:text-[17px] font-semibold">
+                      Customizable
+                    </p>
+                    <h2 className="text-gray-400 text-[12px] lg:text-[17px]">
                       Custom theme on your profile
                     </h2>
                   </div>
                 </div>
                 <div>
-                  <p className="text-[#473ddd]">
+                  <p className="text-[#473ddd] text-[13px] lg:text-[17px]">
                     {duration === "Yearly" ? "+$20/yr" : "+$2/mo"}
                   </p>
                 </div>
